@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class Selenium {
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe"); // <-- Change this path
+        System.setProperty("webdriver.chrome.driver","comtest/lib/chromedriver.exe"); // <-- Change this path
 	    
 	//to launch in headless mode
         ChromeOptions options = new ChromeOptions();
